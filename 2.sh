@@ -17,9 +17,6 @@ sysctl -n net.ipv4.tcp_syncookies
 echo Upgrading Systemd
 apt upgrade systemd
 
-echo Making sure only default account can sudo
-visudo
-
 echo Installing libpam-cracklib
 apt-get install libpam-cracklib
 
